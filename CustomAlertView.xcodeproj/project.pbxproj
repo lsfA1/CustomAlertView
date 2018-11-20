@@ -7,14 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2E468725EC8C32437230F308 /* libPods-CustomAlertView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C4CE4B025466F979F6052FB /* libPods-CustomAlertView.a */; };
 		717AE9BD21A3FB98009C9AC9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 717AE9BC21A3FB98009C9AC9 /* AppDelegate.m */; };
-		717AE9C021A3FB98009C9AC9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 717AE9BF21A3FB98009C9AC9 /* ViewController.m */; };
 		717AE9C321A3FB98009C9AC9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 717AE9C121A3FB98009C9AC9 /* Main.storyboard */; };
 		717AE9C521A3FB99009C9AC9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 717AE9C421A3FB99009C9AC9 /* Assets.xcassets */; };
 		717AE9C821A3FB99009C9AC9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 717AE9C621A3FB99009C9AC9 /* LaunchScreen.storyboard */; };
 		717AE9CB21A3FB99009C9AC9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 717AE9CA21A3FB99009C9AC9 /* main.m */; };
 		717AE9D521A3FB99009C9AC9 /* CustomAlertViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 717AE9D421A3FB99009C9AC9 /* CustomAlertViewTests.m */; };
 		717AE9E021A3FB99009C9AC9 /* CustomAlertViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 717AE9DF21A3FB99009C9AC9 /* CustomAlertViewUITests.m */; };
+		717AE9F121A3FBEA009C9AC9 /* UIColor+custom.m in Sources */ = {isa = PBXBuildFile; fileRef = 717AE9EF21A3FBEA009C9AC9 /* UIColor+custom.m */; };
+		717AE9F421A3FC77009C9AC9 /* AttStrView.m in Sources */ = {isa = PBXBuildFile; fileRef = 717AE9F321A3FC77009C9AC9 /* AttStrView.m */; };
+		717AE9F721A3FD09009C9AC9 /* CustomAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 717AE9F621A3FD09009C9AC9 /* CustomAlertView.m */; };
+		717AE9FB21A40639009C9AC9 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 717AE9FA21A40639009C9AC9 /* RootViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,11 +39,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		18687201C66E0A0BE9BC6E95 /* libPods-CustomAlertViewTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CustomAlertViewTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		60908644551A99D7F70AB32A /* libPods-CustomAlertViewUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CustomAlertViewUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		65CF9EE2BA05C874EF918930 /* Pods-CustomAlertView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomAlertView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CustomAlertView/Pods-CustomAlertView.debug.xcconfig"; sourceTree = "<group>"; };
+		6C4CE4B025466F979F6052FB /* libPods-CustomAlertView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CustomAlertView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		717AE9B821A3FB98009C9AC9 /* CustomAlertView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomAlertView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		717AE9BB21A3FB98009C9AC9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		717AE9BC21A3FB98009C9AC9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		717AE9BE21A3FB98009C9AC9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		717AE9BF21A3FB98009C9AC9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		717AE9C221A3FB98009C9AC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		717AE9C421A3FB99009C9AC9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		717AE9C721A3FB99009C9AC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +57,16 @@
 		717AE9DB21A3FB99009C9AC9 /* CustomAlertViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomAlertViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		717AE9DF21A3FB99009C9AC9 /* CustomAlertViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomAlertViewUITests.m; sourceTree = "<group>"; };
 		717AE9E121A3FB9A009C9AC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		717AE9EF21A3FBEA009C9AC9 /* UIColor+custom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+custom.m"; sourceTree = "<group>"; };
+		717AE9F021A3FBEA009C9AC9 /* UIColor+custom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+custom.h"; sourceTree = "<group>"; };
+		717AE9F221A3FC77009C9AC9 /* AttStrView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AttStrView.h; sourceTree = "<group>"; };
+		717AE9F321A3FC77009C9AC9 /* AttStrView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AttStrView.m; sourceTree = "<group>"; };
+		717AE9F521A3FD09009C9AC9 /* CustomAlertView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomAlertView.h; sourceTree = "<group>"; };
+		717AE9F621A3FD09009C9AC9 /* CustomAlertView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomAlertView.m; sourceTree = "<group>"; };
+		717AE9F821A3FF7C009C9AC9 /* Macros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Macros.h; sourceTree = "<group>"; };
+		717AE9F921A40638009C9AC9 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		717AE9FA21A40639009C9AC9 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		D775E318DE323D3259E1BBBE /* Pods-CustomAlertView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomAlertView.release.xcconfig"; path = "Pods/Target Support Files/Pods-CustomAlertView/Pods-CustomAlertView.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E468725EC8C32437230F308 /* libPods-CustomAlertView.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +95,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		35E7ECDBE74D805158F458EF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6C4CE4B025466F979F6052FB /* libPods-CustomAlertView.a */,
+				18687201C66E0A0BE9BC6E95 /* libPods-CustomAlertViewTests.a */,
+				60908644551A99D7F70AB32A /* libPods-CustomAlertViewUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		717AE9AF21A3FB98009C9AC9 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +112,8 @@
 				717AE9D321A3FB99009C9AC9 /* CustomAlertViewTests */,
 				717AE9DE21A3FB99009C9AC9 /* CustomAlertViewUITests */,
 				717AE9B921A3FB98009C9AC9 /* Products */,
+				F5F6769D9DBD62D21C113FC6 /* Pods */,
+				35E7ECDBE74D805158F458EF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,10 +130,15 @@
 		717AE9BA21A3FB98009C9AC9 /* CustomAlertView */ = {
 			isa = PBXGroup;
 			children = (
+				717AE9EE21A3FBC7009C9AC9 /* CustomAlertView */,
+				717AE9ED21A3FBC7009C9AC9 /* img */,
 				717AE9BB21A3FB98009C9AC9 /* AppDelegate.h */,
 				717AE9BC21A3FB98009C9AC9 /* AppDelegate.m */,
-				717AE9BE21A3FB98009C9AC9 /* ViewController.h */,
-				717AE9BF21A3FB98009C9AC9 /* ViewController.m */,
+				717AE9F921A40638009C9AC9 /* RootViewController.h */,
+				717AE9FA21A40639009C9AC9 /* RootViewController.m */,
+				717AE9F521A3FD09009C9AC9 /* CustomAlertView.h */,
+				717AE9F621A3FD09009C9AC9 /* CustomAlertView.m */,
+				717AE9F821A3FF7C009C9AC9 /* Macros.h */,
 				717AE9C121A3FB98009C9AC9 /* Main.storyboard */,
 				717AE9C421A3FB99009C9AC9 /* Assets.xcassets */,
 				717AE9C621A3FB99009C9AC9 /* LaunchScreen.storyboard */,
@@ -132,6 +166,33 @@
 			path = CustomAlertViewUITests;
 			sourceTree = "<group>";
 		};
+		717AE9ED21A3FBC7009C9AC9 /* img */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = img;
+			sourceTree = "<group>";
+		};
+		717AE9EE21A3FBC7009C9AC9 /* CustomAlertView */ = {
+			isa = PBXGroup;
+			children = (
+				717AE9F021A3FBEA009C9AC9 /* UIColor+custom.h */,
+				717AE9EF21A3FBEA009C9AC9 /* UIColor+custom.m */,
+				717AE9F221A3FC77009C9AC9 /* AttStrView.h */,
+				717AE9F321A3FC77009C9AC9 /* AttStrView.m */,
+			);
+			path = CustomAlertView;
+			sourceTree = "<group>";
+		};
+		F5F6769D9DBD62D21C113FC6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				65CF9EE2BA05C874EF918930 /* Pods-CustomAlertView.debug.xcconfig */,
+				D775E318DE323D3259E1BBBE /* Pods-CustomAlertView.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,6 +200,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 717AE9E421A3FB9A009C9AC9 /* Build configuration list for PBXNativeTarget "CustomAlertView" */;
 			buildPhases = (
+				D960627D74EDC0A77D53A383 /* [CP] Check Pods Manifest.lock */,
 				717AE9B421A3FB98009C9AC9 /* Sources */,
 				717AE9B521A3FB98009C9AC9 /* Frameworks */,
 				717AE9B621A3FB98009C9AC9 /* Resources */,
@@ -257,13 +319,37 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		D960627D74EDC0A77D53A383 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CustomAlertView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		717AE9B421A3FB98009C9AC9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				717AE9C021A3FB98009C9AC9 /* ViewController.m in Sources */,
+				717AE9F721A3FD09009C9AC9 /* CustomAlertView.m in Sources */,
+				717AE9FB21A40639009C9AC9 /* RootViewController.m in Sources */,
 				717AE9CB21A3FB99009C9AC9 /* main.m in Sources */,
+				717AE9F121A3FBEA009C9AC9 /* UIColor+custom.m in Sources */,
+				717AE9F421A3FC77009C9AC9 /* AttStrView.m in Sources */,
 				717AE9BD21A3FB98009C9AC9 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -433,6 +519,7 @@
 		};
 		717AE9E521A3FB9A009C9AC9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65CF9EE2BA05C874EF918930 /* Pods-CustomAlertView.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -450,6 +537,7 @@
 		};
 		717AE9E621A3FB9A009C9AC9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D775E318DE323D3259E1BBBE /* Pods-CustomAlertView.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

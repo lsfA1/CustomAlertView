@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  RootViewController.h
 //  CustomAlertView
 //
 //  Created by 李少锋 on 2018/11/20.
@@ -8,8 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+NS_ASSUME_NONNULL_BEGIN
 
+@interface RootViewController : UIViewController
 
 @end
 
+NS_ASSUME_NONNULL_END
