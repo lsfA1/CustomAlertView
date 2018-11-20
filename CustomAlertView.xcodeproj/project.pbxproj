@@ -19,6 +19,7 @@
 		717AE9F421A3FC77009C9AC9 /* AttStrView.m in Sources */ = {isa = PBXBuildFile; fileRef = 717AE9F321A3FC77009C9AC9 /* AttStrView.m */; };
 		717AE9F721A3FD09009C9AC9 /* CustomAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 717AE9F621A3FD09009C9AC9 /* CustomAlertView.m */; };
 		717AE9FB21A40639009C9AC9 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 717AE9FA21A40639009C9AC9 /* RootViewController.m */; };
+		717AE9FD21A40997009C9AC9 /* 01.png in Resources */ = {isa = PBXBuildFile; fileRef = 717AE9FC21A40997009C9AC9 /* 01.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +67,7 @@
 		717AE9F821A3FF7C009C9AC9 /* Macros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Macros.h; sourceTree = "<group>"; };
 		717AE9F921A40638009C9AC9 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
 		717AE9FA21A40639009C9AC9 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		717AE9FC21A40997009C9AC9 /* 01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 01.png; sourceTree = "<group>"; };
 		D775E318DE323D3259E1BBBE /* Pods-CustomAlertView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomAlertView.release.xcconfig"; path = "Pods/Target Support Files/Pods-CustomAlertView/Pods-CustomAlertView.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -169,6 +171,7 @@
 		717AE9ED21A3FBC7009C9AC9 /* img */ = {
 			isa = PBXGroup;
 			children = (
+				717AE9FC21A40997009C9AC9 /* 01.png */,
 			);
 			path = img;
 			sourceTree = "<group>";
@@ -299,6 +302,7 @@
 			files = (
 				717AE9C821A3FB99009C9AC9 /* LaunchScreen.storyboard in Resources */,
 				717AE9C521A3FB99009C9AC9 /* Assets.xcassets in Resources */,
+				717AE9FD21A40997009C9AC9 /* 01.png in Resources */,
 				717AE9C321A3FB98009C9AC9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
